@@ -17729,81 +17729,6 @@ a:hover {
   opacity: 0.6;
 }
 
-.bg-fluid {
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.bg-link {
-  text-indent: 101%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.hover-bg-primary:hover {
-  background-color: #907a7b;
-  -webkit-transition: background-color 0.3s;
-  -o-transition: background-color 0.3s;
-  transition: background-color 0.3s;
-}
-
-.hover-bg-secondary:hover {
-  background-color: #c0a4a5;
-  -webkit-transition: background-color 0.3s;
-  -o-transition: background-color 0.3s;
-  transition: background-color 0.3s;
-}
-
-.hover-bg-success:hover {
-  background-color: #198754;
-  -webkit-transition: background-color 0.3s;
-  -o-transition: background-color 0.3s;
-  transition: background-color 0.3s;
-}
-
-.hover-bg-info:hover {
-  background-color: #707070;
-  -webkit-transition: background-color 0.3s;
-  -o-transition: background-color 0.3s;
-  transition: background-color 0.3s;
-}
-
-.hover-bg-warning:hover {
-  background-color: #f5f0e7;
-  -webkit-transition: background-color 0.3s;
-  -o-transition: background-color 0.3s;
-  transition: background-color 0.3s;
-}
-
-.hover-bg-danger:hover {
-  background-color: #dc3545;
-  -webkit-transition: background-color 0.3s;
-  -o-transition: background-color 0.3s;
-  transition: background-color 0.3s;
-}
-
-.hover-bg-light:hover {
-  background-color: #f8f9fa;
-  -webkit-transition: background-color 0.3s;
-  -o-transition: background-color 0.3s;
-  transition: background-color 0.3s;
-}
-
-.hover-bg-dark:hover {
-  background-color: #856f70;
-  -webkit-transition: background-color 0.3s;
-  -o-transition: background-color 0.3s;
-  transition: background-color 0.3s;
-}
-
-.hover-bg-transparent:hover {
-  background-color: transparent;
-  -webkit-transition: background-color 0.3s;
-  -o-transition: background-color 0.3s;
-  transition: background-color 0.3s;
-}
-
 .opacity-0 {
   opacity: calc(0 * 0.1) !important;
 }
@@ -17902,6 +17827,81 @@ a:hover {
   .ratio-lg-1x1 {
     --bs-aspect-ratio: calc(1 / 1 * 100%);
   }
+}
+
+.bg-fluid {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-link {
+  text-indent: 101%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hover-bg-primary:hover {
+  background-color: #907a7b;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.hover-bg-secondary:hover {
+  background-color: #c0a4a5;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.hover-bg-success:hover {
+  background-color: #198754;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.hover-bg-info:hover {
+  background-color: #707070;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.hover-bg-warning:hover {
+  background-color: #f5f0e7;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.hover-bg-danger:hover {
+  background-color: #dc3545;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.hover-bg-light:hover {
+  background-color: #f8f9fa;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.hover-bg-dark:hover {
+  background-color: #856f70;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.hover-bg-transparent:hover {
+  background-color: transparent;
+  -webkit-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
 }
 
 .card {
