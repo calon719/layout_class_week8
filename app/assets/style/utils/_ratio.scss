@@ -1,0 +1,11 @@
+@include media-breakpoint-up(md) {
+  .ratio-md-12x19 {
+    --bs-aspect-ratio: calc(19 / 12 * 100%);
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .ratio-lg-1x1 {
+    --bs-aspect-ratio: calc(1 / 1 * 100%);
+  }
+}

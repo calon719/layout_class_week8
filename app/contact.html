@@ -1,0 +1,66 @@
+---
+title: DOYOGA
+layout: ./app/layout.ejs
+engine: ejs
+current: contact
+---
+
+<main class="text-primary pt-7 pt-md-8 pb-9 pb-md-8.5 pb-lg-10 mb-2 mb-lg-3">
+  <div class="container">
+    <h3 class="fw-medium text-center mb-4 mb-md-5 mb-lg-6">聯絡我們</h3>
+    <div class="row justify-content-center gy-6">
+      <div class="col-12 col-md-10 col-lg-7">
+        <img src="./assets/images/thomas-kinto-6MsMKWzJWKc-unsplash.jpg" alt="map"
+          class="object-cover ratio ratio-23x13 mb-3 rounded-2xl">
+        <div class="w-md-7/12 w-lg-50">
+          <h4 class="fw-normal mb-2">DOYOGA 教室位置</h4>
+          <p class="mb-2">高雄市苓雅區北信街 23 號 2 樓</p>
+          <p class="mb-0">如何前往：</p>
+          <ol>
+            <li class="mb-4">1. 搭乘捷運：紅線到正義站 3 號出口，延正義路方向至北信街交叉口即可。</li>
+            <li class="mb-4">2. 搭乘公車：搭這些公車都可以抵達正義站
+              <ul class="d-flex">
+                <li class="me-3">24B</li>
+                <li class="me-3">25</li>
+                <li class="me-3">33</li>
+                <li class="me-3">50</li>
+                <li class="me-3">76</li>
+                <li class="me-3">77</li>
+                <li class="me-3">77區</li>
+                <li>100</li>
+              </ul>
+            </li>
+            <li>3. 開車前往北信街 32 號，教室旁有專屬停車場可以使用。</li>
+          </ol>
+        </div>
+      </div>
+      <div class="col-12 col-md-10 col-lg-5">
+        <div class="bg-warning rounded-2xl p-5">
+          <h4 class="fw-normal mb-3">意見回饋&問題詢問</h4>
+          <form action="">
+            <div class="mb-3">
+              <label for="customName2" class="form-label">姓名</label>
+              <input type="text" class="form-control border-secondary" id="customName2" placeholder="請輸入您的姓名">
+            </div>
+            <div class="mb-3">
+              <label for="email2" class="form-label">電子信箱</label>
+              <input type="email" class="form-control border-secondary" id="email2" placeholder="email@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="phone2" class="form-label">手機號碼</label>
+              <input type="number" class="form-control border-secondary" id="phone2" placeholder="0912-345-678">
+            </div>
+            <div class="mb-4">
+              <label for="feedback" class="form-label">意見回饋</label>
+              <textarea class="form-control border-secondary" id="feedback" rows="9"></textarea>
+            </div>
+            <div class="float-end">
+              <input class="btn btn-secondary text-white" type="submit" value="送出">
+            </div>
+            <div class="clearfix"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
