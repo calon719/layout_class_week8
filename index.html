@@ -1,10 +1,69 @@
----
-title: DOYOGA
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    DOYOGA
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css" rel="stylesheet" />
+
+  <script>
+    (function (d) {
+      var config = {
+        kitId: 'xoa0hcl',
+        scriptTimeout: 3000,
+        async: true
+      },
+        h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+    })(document);
+  </script>
+</head>
+
+<body>
+  <ul class="sns d-none d-lg-block me-4 position-fixed top-50 end-0 translate-middle-y text-center lh-sm">
+    <li><a href="#" class="d-block fs-1"><i class="fab fa-facebook"></i></a></li>
+    <li><a href="#" class="d-block fs-1"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="#" class="d-block fs-1"><i class="fab fa-line"></i></a></li>
+  </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning py-4">
+      <div class="container-md">
+        <h1 class="mb-0">
+          <a class="navbar-brand bg-link d-block w-24x h-8x overflow-hidden text-nowrap" href="./index.html" style="background-image: url(
+            ./assets/images/DOYOGA-logo.png);">DOYOGA</a>
+        </h1>
+        <button class=" navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 flex-grow-1 justify-content-center">
+            <li class="nav-item me-7">
+              <a class="nav-link text-primary" href="./course.html">課程介紹</a>
+            </li>
+            <li class="nav-item me-7">
+              <a class="nav-link text-primary" href="./environment.html">瑜珈空間</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="./schedule.html">當月課表</a>
+            </li>
+          </ul>
+          <a href="./appointment.html" class="btn btn-outline-primary rounded-2xl me-3">立即預約</a>
+          <a href="./contact.html" class="btn btn-outline-primary rounded-2xl">聯絡我們</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  
 <main>
   <!-- banner -->
   <div class="banner h-140x h-md-145x bg-fluid bg-bottom"
@@ -373,3 +432,53 @@ current: index
     </div>
   </section>
 </main>
+
+    <footer class="bg-primary text-white">
+      <div class="border-bottom border-white">
+        <div
+          class="container py-4 py-md-5 d-flex flex-column flex-lg-row justify-content-between align-items-lg-center">
+          <p class="h3 fw-md-medium">現在訂閱，獲得課程優惠碼！</p>
+          <div class="input-group w-md-5/12 w-lg-87x">
+            <input type="text" class="form-control" placeholder="輸入您的電子信箱" aria-label="Recipient's username"
+              aria-describedby="button-addon2">
+            <button class="btn btn-secondary text-white" type="button" id="button-addon2">訂閱</button>
+          </div>
+        </div>
+      </div>
+      <div class="container pt-4 pb-5 py-md-5">
+        <div class="d-flex justify-content-between">
+          <h2 class="my-0">
+            <a class="bg-link w-24x h-8x d-block" href="./index.html" style="background-image: url(
+              ./assets/images/DOYOGA.png);"></a>
+          </h2>
+          <ul class="d-flex">
+            <li><a class="me-2" href="#"><img src="./assets/images/icon-fb.svg" alt="icon" width="24"></a></li>
+            <li><a class="me-2" href="#"><img src="./assets/images/icon-ig.svg" alt="icon" width="24"></a></li>
+            <li><a href="#"><img src="./assets/images/icon-line.svg" alt="icon" width="24"></a></li>
+          </ul>
+        </div>
+        <div class="position-md-relative">
+          <ul class="mb-2 mb-md-0">
+            <li class="mb-2">
+              <a class="text-white" href="./course.html">課程介紹</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-white" href="./environment.html">瑜珈空間</a>
+            </li>
+            <li>
+              <a class="text-white" href="./schedule.html">當月課表</a>
+            </li>
+          </ul>
+          <p class="m-0 position-md-absolute bottom-0 start-50 translate-middle-md-x">© 2021. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
