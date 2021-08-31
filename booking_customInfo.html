@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    DOYOGA
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css" rel="stylesheet" />
+
+  <script>
+    (function (d) {
+      var config = {
+        kitId: 'xoa0hcl',
+        scriptTimeout: 3000,
+        async: true
+      },
+        h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+    })(document);
+  </script>
+</head>
+
+<body>
+  <ul class="sns d-none d-lg-block me-4 position-fixed top-50 end-0 translate-middle-y text-center lh-sm">
+    <li><a href="#" class="d-block fs-1"><i class="fab fa-facebook"></i></a></li>
+    <li><a href="#" class="d-block fs-1"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="#" class="d-block fs-1"><i class="fab fa-line"></i></a></li>
+  </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning py-4">
+      <div class="container-md">
+        <h1 class="mb-0">
+          <a class="navbar-brand bg-link d-block w-24x h-8x overflow-hidden text-nowrap" href="./index.html" style="background-image: url(
+            ./assets/images/DOYOGA-logo.png);">DOYOGA</a>
+        </h1>
+        <button class=" navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 flex-grow-1 justify-content-center">
+            <li class="nav-item me-7">
+              <a class="nav-link text-primary" href="./course.html">課程介紹</a>
+            </li>
+            <li class="nav-item me-7">
+              <a class="nav-link text-primary" href="./environment.html">瑜珈空間</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="./schedule.html">當月課表</a>
+            </li>
+          </ul>
+          <a href="./booking.html" class="btn btn-outline-primary rounded-2xl me-3">立即預約</a>
+          <a href="./contact.html" class="btn btn-outline-primary rounded-2xl">聯絡我們</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  
+<main class="pt-7 pt-md-8 pb-9 pb-lg-10">
+  <div class="container">
+    <h3 class="text-primary text-center fw-normal mb-4 mb-md-3">立即預約</h3>
+
+    <ul class="d-flex justify-content-center mb-5">
+      <li class="rounded-2xl text-primary bg-warning py-2.5 px-3.5 px-lg-7 me-3 me-md-5">選擇方案</li>
+      <li class="rounded-2xl text-white bg-primary py-2.5 px-3.5 px-lg-7 me-3 me-md-5">填寫資料</li>
+      <li class="rounded-2xl text-primary bg-warning py-2.5 px-3.5 px-lg-7">完成預約</li>
+    </ul>
+
+    <div class="text-info d-flex flex-column align-items-center">
+      <div class="d-flex align-items-center mb-4 mb-md-3">
+        <p>您選擇的是</p>
+        <p class="text-secondary fs-5 ms-3">首次體驗課程-基礎</p>
+      </div>
+      <form class="text-info w-md-88x" action="">
+        <p>1. 是否接觸過瑜珈?</p>
+        <div class="mb-5">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input border-secondary" type="radio" name="yogaExperience" id="true" value="true">
+            <label class="form-check-label" for="true">是</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input border-secondary" type="radio" name="yogaExperience" id="fa-caret-down"
+              value="false">
+            <label class="form-check-label" for="false">否</label>
+          </div>
+        </div>
+
+        <p>2. 想改善的生活問題?</p>
+        <div class="d-flex mb-5">
+          <div class="me-3">
+            <div class="form-check mb-3">
+              <input class="form-check-input border-secondary" type="checkbox" id="stamina" value="stamina">
+              <label class="form-check-label" for="stamina">肌耐力不足</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input border-secondary" type="checkbox" id="posture" value="posture">
+              <label class="form-check-label" for="posture">姿勢不正</label>
+            </div>
+          </div>
+          <div class="me-3">
+            <div class="form-check mb-3">
+              <input class="form-check-input border-secondary" type="checkbox" id="flexibility" value="flexibility">
+              <label class="form-check-label" for="flexibility">柔軟度不佳</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input border-secondary" type="checkbox" id="sleeping" value="sleeping">
+              <label class="form-check-label" for="sleeping">睡眠品質差</label>
+            </div>
+          </div>
+          <div>
+            <div class="form-check mb-3">
+              <input class="form-check-input border-secondary" type="checkbox" id="pressure" value="pressure">
+              <label class="form-check-label" for="pressure">壓力大</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input border-secondary" type="checkbox" id="attention" value="attention">
+              <label class="form-check-label" for="attention">注意力不足</label>
+            </div>
+          </div>
+        </div>
+
+        <p>3. 每週累積運動量約為多少？</p>
+        <div class="d-flex mb-5">
+          <div class="me-5">
+            <div class="form-check mb-3 mb-md-1">
+              <input class="form-check-input border-secondary" type="radio" name="exercise" id="over150min"
+                value="over150min">
+              <label class="form-check-label" for="over150min">150 分鐘以上</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input border-secondary" type="radio" name="exercise" id="over30min"
+                value="over30min">
+              <label class="form-check-label" for="over30min">30~75 分鐘</label>
+            </div>
+          </div>
+          <div>
+            <div class="form-check mb-3 mb-md-1">
+              <input class="form-check-input border-secondary" type="radio" name="exercise" id="over75min"
+                value="over75min">
+              <label class="form-check-label" for="over75min">75~150 分鐘</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input border-secondary" type="radio" name="exercise" id="under30min"
+                value="under30min">
+              <label class="form-check-label" for="under30min">30 分鐘以下</label>
+            </div>
+          </div>
+        </div>
+
+        <p class="mb-1">4. 上課預約報到日</p>
+        <p><small>若還沒有確定的日期，可以等待專員與您聯絡時再做詳細的諮詢哦！</small></p>
+        <input type="text" class="form-control border-secondary w-5/12 mb-5" placeholder="MM/DD/YYYY" aria-label="date">
+        <p>5. 填寫基本資料，完成預約後會寄送通知至電子信箱</p>
+        <div class="row gx-2 gy-3">
+          <div class="col-6">
+            <label for="customName" class="form-label">姓名</label>
+            <input type="text" class="form-control border-secondary" id="customName" placeholder="請輸入您的姓名">
+          </div>
+          <div class="col-6">
+            <label for="yearsold" class="form-label">年齡</label>
+            <input type="number" class="form-control border-secondary" id="yearsold" placeholder="請輸入您的年齡">
+          </div>
+          <div class="col-3">
+            <label for="inputState" class="form-label">性別</label>
+            <select id="sex" class="form-select border-secondary">
+              <option value="female" selected>女</option>
+              <option value="male">男</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <label for="email" class="form-label">電子信箱</label>
+            <input type="email" class="form-control border-secondary" id="email" placeholder="email@example.com">
+          </div>
+          <div class="col-12 mb-3">
+            <label for="phone" class="form-label">手機號碼</label>
+            <input type="tel" class="form-control border-secondary" id="phone" placeholder="0912-345-678">
+          </div>
+          <div class="col-12">
+            <a href="./booking_finish.html" class="d-block btn btn-secondary text-white w-100">送出</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</main>
+
+    <footer class="bg-primary text-white">
+      <div class="border-bottom border-white">
+        <div
+          class="container py-4 py-md-5 d-flex flex-column flex-lg-row justify-content-between align-items-lg-center">
+          <p class="h3 fw-md-medium">現在訂閱，獲得課程優惠碼！</p>
+          <div class="input-group w-md-5/12 w-lg-87x">
+            <input type="text" class="form-control" placeholder="輸入您的電子信箱" aria-label="Recipient's username"
+              aria-describedby="button-addon2">
+            <button class="btn btn-secondary text-white" type="button" id="button-addon2">訂閱</button>
+          </div>
+        </div>
+      </div>
+      <div class="container pt-4 pb-5 py-md-5">
+        <div class="d-flex justify-content-between">
+          <h2 class="my-0">
+            <a class="bg-link w-24x h-8x d-block" href="./index.html" style="background-image: url(
+              ./assets/images/DOYOGA.png);"></a>
+          </h2>
+          <ul class="d-flex">
+            <li><a class="me-2" href="#"><img src="./assets/images/icon-fb.svg" alt="icon" width="24"></a></li>
+            <li><a class="me-2" href="#"><img src="./assets/images/icon-ig.svg" alt="icon" width="24"></a></li>
+            <li><a href="#"><img src="./assets/images/icon-line.svg" alt="icon" width="24"></a></li>
+          </ul>
+        </div>
+        <div class="position-md-relative">
+          <ul class="mb-2 mb-md-0">
+            <li class="mb-2">
+              <a class="text-white" href="./course.html">課程介紹</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-white" href="./environment.html">瑜珈空間</a>
+            </li>
+            <li>
+              <a class="text-white" href="./schedule.html">當月課表</a>
+            </li>
+          </ul>
+          <p class="m-0 position-md-absolute bottom-0 start-50 translate-middle-md-x">© 2021. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

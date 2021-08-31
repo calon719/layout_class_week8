@@ -56,7 +56,7 @@
               <a class="nav-link text-primary" href="./schedule.html">當月課表</a>
             </li>
           </ul>
-          <a href="./appointment.html" class="btn btn-outline-primary rounded-2xl me-3">立即預約</a>
+          <a href="./booking.html" class="btn btn-outline-primary rounded-2xl me-3">立即預約</a>
           <a href="./contact.html" class="btn btn-outline-primary rounded-2xl">聯絡我們</a>
         </div>
       </div>
@@ -69,126 +69,77 @@
     <h3 class="text-primary text-center fw-normal mb-4 mb-md-3">立即預約</h3>
 
     <ul class="d-flex justify-content-center mb-5">
-      <li class="rounded-2xl text-primary bg-warning py-2.5 px-3.5 px-lg-7 me-3 me-md-5">選擇方案</li>
-      <li class="rounded-2xl text-white bg-primary py-2.5 px-3.5 px-lg-7 me-3 me-md-5">填寫資料</li>
+      <li class="rounded-2xl text-white bg-primary py-2.5 px-3.5 px-lg-7 me-3 me-md-5">選擇方案</li>
+      <li class="rounded-2xl text-primary bg-warning py-2.5 px-3.5 px-lg-7 me-3 me-md-5">填寫資料</li>
       <li class="rounded-2xl text-primary bg-warning py-2.5 px-3.5 px-lg-7">完成預約</li>
     </ul>
 
-    <div class="text-info d-flex flex-column align-items-center">
-      <div class="d-flex align-items-center mb-4 mb-md-3">
-        <p>您選擇的是</p>
-        <p class="text-secondary fs-5 ms-3">首次體驗課程-基礎</p>
-      </div>
-      <form class="text-info w-md-88x" action="">
-        <p>1. 是否接觸過瑜珈?</p>
-        <div class="mb-5">
-          <div class="form-check form-check-inline">
-            <input class="form-check-input border-secondary" type="radio" name="yogaExperience" id="true" value="true">
-            <label class="form-check-label" for="true">是</label>
-          </div>
-          <div class="form-check form-check-inline">
-            <input class="form-check-input border-secondary" type="radio" name="yogaExperience" id="fa-caret-down"
-              value="false">
-            <label class="form-check-label" for="false">否</label>
+    <ul class="row text-primary mb-6 mb-lg-5">
+      <li class="col-12 col-lg-4 mb-3 mb-md-4 mb-lg-0">
+        <div class="card border-secondary">
+          <div class="d-md-flex d-lg-block flex-md-row align-items-center">
+            <div class="ratio ratio-350x243">
+              <img src="./assets/images/woman in white tank top and white leggings bending her body.jpg"
+                alt="plan_image" class="card-img-top card-img-md-start card-img-lg-top object-cover">
+            </div>
+            <div class="card-body p-4">
+              <h5 class="card-title fw-normal text-center text-md-start text-lg-center mb-1">首次體驗</h5>
+              <p class="card-text text-secondary text-center text-md-start text-lg-center fs-5 mb-2">NT $450 / 次</p>
+              <p class="card-text mb-6">分基礎、中級、高級可以選擇。初次至 DOYOGA 上課建議選擇此方案。</p>
+              <a href="./booking_firstTime.html"
+                class="btn btn-secondary hover-bg-primary text-white fs-5 w-100 hover-opacity-10">選擇課程</a>
+            </div>
           </div>
         </div>
+      </li>
+      <li class="col-12 col-lg-4 mb-3 mb-md-4 mb-lg-0">
+        <div class="card border-secondary">
+          <div class="d-md-flex d-lg-block flex-md-row align-items-center">
+            <div class="ratio ratio-350x243">
+              <img src="./assets/images/woman performing yoga.jpg" alt="plan_image"
+                class="card-img-top card-img-md-start card-img-lg-top object-cover">
+            </div>
+            <div class="card-body p-4">
+              <h5 class="card-title fw-normal text-center text-md-start text-lg-center mb-1">短期體驗</h5>
+              <p class="card-text text-secondary text-center text-md-start text-lg-center fs-5 mb-2">NT $1800 / 月
+              </p>
+              <p class="card-text mb-6">分基礎、中級、高級可以選擇。想試著培養瑜珈習慣者可以選擇此方案。</p>
+              <a href="./booking_shortTerm.html"
+                class="btn btn-secondary hover-bg-primary text-white fs-5 w-100 hover-opacity-10">選擇課程</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="col-12 col-lg-4">
+        <div class="card border-secondary">
+          <div class="d-md-flex d-lg-block flex-md-row align-items-center">
+            <div class="ratio ratio-350x243">
+              <img src="./assets/images/woman in blue leggings and black tank top doing yoga.jpg" alt="plan_image"
+                class="card-img-top card-img-md-start card-img-lg-top object-cover">
+            </div>
+            <div class="card-body p-4">
+              <h5 class="card-title fw-normal text-center text-md-start text-lg-center mb-1">長期體驗</h5>
+              <p class="card-text text-secondary text-center text-md-start text-lg-center fs-5 mb-2">NT $5600 / 季
+              </p>
+              <p class="card-text mb-6">分基礎、中級、高級可以選擇。有長期習慣做瑜伽者建議選擇此方案。</p>
+              <a href="./booking_longTerm.html"
+                class="btn btn-secondary hover-bg-primary text-white fs-5 w-100 hover-opacity-10">選擇課程</a>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
 
-        <p>2. 想改善的生活問題?</p>
-        <div class="d-flex mb-5">
-          <div class="me-3">
-            <div class="form-check mb-3">
-              <input class="form-check-input border-secondary" type="checkbox" id="stamina" value="stamina">
-              <label class="form-check-label" for="stamina">肌耐力不足</label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input border-secondary" type="checkbox" id="posture" value="posture">
-              <label class="form-check-label" for="posture">姿勢不正</label>
-            </div>
-          </div>
-          <div class="me-3">
-            <div class="form-check mb-3">
-              <input class="form-check-input border-secondary" type="checkbox" id="flexibility" value="flexibility">
-              <label class="form-check-label" for="flexibility">柔軟度不佳</label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input border-secondary" type="checkbox" id="sleeping" value="sleeping">
-              <label class="form-check-label" for="sleeping">睡眠品質差</label>
-            </div>
-          </div>
-          <div>
-            <div class="form-check mb-3">
-              <input class="form-check-input border-secondary" type="checkbox" id="pressure" value="pressure">
-              <label class="form-check-label" for="pressure">壓力大</label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input border-secondary" type="checkbox" id="attention" value="attention">
-              <label class="form-check-label" for="attention">注意力不足</label>
-            </div>
-          </div>
-        </div>
-
-        <p>3. 每週累積運動量約為多少？</p>
-        <div class="d-flex mb-5">
-          <div class="me-5">
-            <div class="form-check mb-3 mb-md-1">
-              <input class="form-check-input border-secondary" type="radio" name="exercise" id="over150min"
-                value="over150min">
-              <label class="form-check-label" for="over150min">150 分鐘以上</label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input border-secondary" type="radio" name="exercise" id="over30min"
-                value="over30min">
-              <label class="form-check-label" for="over30min">30~75 分鐘</label>
-            </div>
-          </div>
-          <div>
-            <div class="form-check mb-3 mb-md-1">
-              <input class="form-check-input border-secondary" type="radio" name="exercise" id="over75min"
-                value="over75min">
-              <label class="form-check-label" for="over75min">75~150 分鐘</label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input border-secondary" type="radio" name="exercise" id="under30min"
-                value="under30min">
-              <label class="form-check-label" for="under30min">30 分鐘以下</label>
-            </div>
-          </div>
-        </div>
-
-        <p class="mb-1">4. 上課預約報到日</p>
-        <p><small>若還沒有確定的日期，可以等待專員與您聯絡時再做詳細的諮詢哦！</small></p>
-        <input type="text" class="form-control border-secondary w-5/12 mb-5" placeholder="MM/DD/YYYY" aria-label="date">
-        <p>5. 填寫基本資料，完成預約後會寄送通知至電子信箱</p>
-        <div class="row gx-2 gy-3">
-          <div class="col-6">
-            <label for="customName" class="form-label">姓名</label>
-            <input type="text" class="form-control border-secondary" id="customName" placeholder="請輸入您的姓名">
-          </div>
-          <div class="col-6">
-            <label for="yearsold" class="form-label">年齡</label>
-            <input type="number" class="form-control border-secondary" id="yearsold" placeholder="請輸入您的年齡">
-          </div>
-          <div class="col-3">
-            <label for="inputState" class="form-label">性別</label>
-            <select id="sex" class="form-select border-secondary">
-              <option value="female" selected>女</option>
-              <option value="male">男</option>
-            </select>
-          </div>
-          <div class="col-12">
-            <label for="email" class="form-label">電子信箱</label>
-            <input type="email" class="form-control border-secondary" id="email" placeholder="email@example.com">
-          </div>
-          <div class="col-12 mb-3">
-            <label for="phone" class="form-label">手機號碼</label>
-            <input type="tel" class="form-control border-secondary" id="phone" placeholder="0912-345-678">
-          </div>
-          <div class="col-12">
-            <a href="./appointment_finish.html" class="d-block btn btn-secondary text-white w-100">送出</a>
-          </div>
-        </div>
-      </form>
+    <div class="notice text-primary d-flex flex-column align-items-center mb-5">
+      <h4 class="fw-normal fs-3 mb-3">預約須知</h4>
+      <ol class="w-md-75 px-md-7">
+        <li class="mb-1">1. 如果有特殊體質、特殊狀況，請主動告知。</li>
+        <li class="mb-1">2. 取消預約或時間異動請於預約日前一天晚間 21:00 前告知，預約當日請勿異動或取消，以免影響您日後再預約的個人信用及難度。</li>
+        <li class="mb-1">3. 為維護上課品質，請遵守 DOYOGA 各項參觀規定，未遵守規定者，本公司保留謝絕入館之權利。</li>
+        <li>4. DOYOGA 保留修改預約須知之權利，修改後的條款將公佈於本網站上，不另外個別通知。如果您繼續在本網站進行參觀預約，就表示您已經了解、並同意遵守修改後的約定條款。</li>
+      </ol>
     </div>
+
   </div>
 </main>
 
